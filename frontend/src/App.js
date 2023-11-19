@@ -25,7 +25,7 @@ function App() {
   const handleSearch = async () => {
     try {
       const response = await axios.post(
-        "http://localhost:8000/ingestfrontend",
+        "http://localhost:3000/ingestfrontend",
         formData
       );
       console.log(response.data);

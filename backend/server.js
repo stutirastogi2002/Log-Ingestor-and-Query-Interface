@@ -4,7 +4,7 @@ import cors from "cors";
 import { Client } from "@elastic/elasticsearch";
 
 const app = express();
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 3000;
 
 // Elasticsearch client
 const elasticClient = new Client({
